@@ -19,7 +19,7 @@ public class CarController {
     }
 
     @GetMapping()
-    List<String> all() {
+    List<String> getAllCars() {
         return carService.getAll();
     }
 }
